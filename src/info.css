@@ -1,0 +1,142 @@
+#InfoSection {
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%, rgb(49, 15, 66) 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.SkillBoard {
+    color: white;
+    border: 1px solid #4F2F68;
+    background: #120E14;
+    height: fit-content;
+    padding: 0 12px;
+    border-radius: 17px;
+
+
+}
+
+.SkillBoard li {
+    color: #FFF;
+
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    /* 135% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.SkillBoard li::marker {
+    color: purple;
+}
+
+.SkillBoard h5 {
+    font-variant-numeric: lining-nums proportional-nums;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 0;
+
+}
+
+
+#skillDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vh;
+}
+
+#skillDiv div {
+    margin-top: 12px;
+
+}
+
+.infoMain {
+    font-variant-numeric: lining-nums proportional-nums;
+
+    color: #FEFAFF;
+
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 55px;
+    font-style: normal;
+
+    letter-spacing: 2.75px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+    padding-left: 10px;
+}
+
+.infoBio {
+    margin-left: 29vh;
+}
+
+
+
+#mainText {
+    color: #FFF;
+
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 2.5vh;
+    font-style: normal;
+    font-weight: 300;
+
+    width: 60vh;
+    margin-left: 30vh;
+}
+
+
+.personInfo {
+    display: flex;
+    width: fit-content;
+    margin-left: 30vh;
+    justify-content: space-between;
+}
+
+.personInfo h5 {
+    color: #FFF;
+
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.personInfo p {
+    color: #FFF;
+
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 0px;
+    letter-spacing: 1px;
+
+}
+
+
+#robiotDiv {   
+    margin-right: 400px;
+}
+
+#billDiv {
+    margin-left: auto;
+}

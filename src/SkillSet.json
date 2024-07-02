@@ -1,0 +1,14 @@
+{
+    "Web":[
+        "HTML/CSS", "JavaScript","TypeScript","React.js","MongoDB + Mongoose","Node.js + Express","JSON"
+    ],
+    "ProgrammingLanguages":[
+        "C++", "C#","C","Python","Ruby","Lua","Kotlin","Java"
+    ], 
+    "Computer Science":[
+        "Basic Computer Science Theory", "Object Oriented Programming","Data Structures","Algorithms","Computer architecture","Computer Building","Linux"
+    ],
+    "Other":[
+        "Figma","Adobe Illustrator","Adobe Photoshop","Adobe Premiere Pro", "Adobe Photoshop", "CapCut","Photopea","Microsoft Office Word","Microsoft Office Excel","Microsoft Office Powerpoint"
+    ]
+}
