@@ -1,4 +1,5 @@
 import Person from "./Person";
+import Project from "./Project";
 
 
 export default function About() {
@@ -24,12 +25,37 @@ export default function About() {
                     </h3>
                     <div className="personInfo">
                         <div id="robiotDiv">
-                         <Person name="Robiot" linkTitle="x.com/robiotz" />
+                            <Person name="Robiot" linkTitle="x.com/robiotz" />
                         </div>
 
                         <div id="billDiv">
-                         <Person name="Bill Gates" linkTitle="Founder of Microsoft" />
+                            <Person name="Bill Gates" linkTitle="Founder of Microsoft" />
                         </div>
+                    </div>
+
+                    <h3 className="infoMain" id="projectsMain">
+                        Projects
+                    </h3>
+
+                    <div id="projectsPage">
+
+                        <div id="PortfolioProject">
+                            <Project title="My Portfolio" tags="REACT + TS" content="You're looking at it! This is my portfolio. This was built using React and Typescript and shared across my social media accounts." devPhase="Maintaining" />
+                        </div>
+
+                        <div id="LearnProject">
+                            <Project title="LearnToCode" tags="REACT + TS + NEXT.JS" content="LearnToCode is a free website built to teach people about coding and relavent Computer Science Topics, fully Open-Source and open for suggestions." devPhase="Development" />
+                        </div>
+
+                        <div id="dsaProject">
+                            <Project title="DSA.JS" tags="JS + TS" content="dsa.js is a library which creates numberous Data Structure and Algorithm topics into easy-to-use functions or classes." devPhase="Update Incoming" />
+                        </div>
+
+                        <div id="creditProject">
+                            <Project title="Social Credit Score Project" tags="REACT + TS + Node.js + MongoDB" content="This is an upcoming project, where a person can register themselves and get rated by other people." devPhase="Development" />
+                        </div>
+
+
                     </div>
                 </div>
             </div>

@@ -2,18 +2,71 @@
   border: none !important;
   height: 100vh;
   width: 100%;
+  aspect-ratio: 16 / 9;
   padding: 0;
+  flex-direction: row; /* Stack children vertically */
+  justify-content: center;
   display: flex;
   background: rgb(255, 255, 255);
   background: linear-gradient(149deg, rgb(255, 255, 255) 0%, rgba(255, 254, 255, 1) 24%, rgba(243, 237, 245, 1) 44%, rgba(214, 195, 221, 1) 75%, rgba(152, 116, 165, 1) 100%);
   background-size: 200% 100%;
   animation: bgGradient 3s ease-in-out infinite;
   animation-direction: alternate;
+  background-size: cover;
+  overflow: hidden;
+  align-items: center;
+  /* Center content */
 }
 
-@keyframes bgGradient{
-  0%{background-position: 0%}
-  100%{background-position: 100%}
+@keyframes bgGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1570px) {
+
+  #heroBg {
+    flex-direction: column;
+  }
+  .iconBack {
+    margin-top: 6px;
+  }
+
+  #IconsNext.HeroElement{
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #heroBg {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 992px) {
+  #heroBg {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #heroBg {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #heroBg {
+    height: 60vh;
+  }
 }
 
 body {
@@ -28,7 +81,7 @@ body {
   letter-spacing: 2.75px;
   text-transform: uppercase;
   font-weight: 900;
-  margin-top: 39vh;
+
 }
 
 #heroSubtitle {
@@ -46,6 +99,11 @@ body {
 #heroSubtitle {
   padding: 0;
   margin: 0;
+
+
+}
+
+@media (min-width: 1570px) {
 
 
 }
@@ -71,8 +129,8 @@ body {
 }
 
 .IconStrip {
-  
-  margin-left: 10vh;
+
+  margin-right: 10vh;
   padding: 0;
   margin-bottom: 20px;
 }
@@ -85,14 +143,15 @@ body {
 
 #IconsNext {
   padding-left: 0;
-  margin-top: 35vh;
+
 }
 
 #MainText {
   padding-left: 230px;
+  margin-right: 10vh;
   min-width: max-content;
   max-width: 0;
-  margin-top: 39vh;
+
 }
 
 .iconImg {
@@ -108,13 +167,16 @@ body {
 #ReactIcon {
   padding-top: 11px;
 }
+
 #NodeIcon {
   width: 85%;
   padding-left: 9.5px;
   height: 90%;
 }
 
-#CPPIcon, #CSIcon, #CIcon{
+#CPPIcon,
+#CSIcon,
+#CIcon {
   width: 85%;
   padding-left: 8px;
   height: 90%;

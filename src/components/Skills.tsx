@@ -30,9 +30,12 @@ export default function Skills() {
             />
 
             <SkillBoard
-                title="Web Development"
+                title="Other"
                 items={otherSkills}
             />
+
+            <br></br>
+            <br></br>
         </div>
     )
 }

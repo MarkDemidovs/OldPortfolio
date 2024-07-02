@@ -1,3 +1,21 @@
+@media (max-width: 1570px) {
+
+    #heroBg {
+      flex-direction: column;
+    }
+    .iconBack {
+      margin-top: 6px;
+    }
+  
+    #IconsNext.HeroElement{
+      margin-top: 50px;
+    }
+  }
+
+
+
+
+
 #InfoSection {
     height: fit-content;
     width: 100%;
@@ -9,8 +27,6 @@
 }
 
 
-
-
 .SkillBoard {
     color: white;
     border: 1px solid #4F2F68;
@@ -18,6 +34,7 @@
     height: fit-content;
     padding: 0 12px;
     border-radius: 17px;
+    padding-right: 20px;
 
 
 }
@@ -30,7 +47,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    line-height: 27px;
+    line-height: 37px;
     /* 135% */
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -133,10 +150,168 @@
 }
 
 
-#robiotDiv {   
+#robiotDiv {
     margin-right: 400px;
 }
 
 #billDiv {
     margin-left: auto;
+}
+
+#projectsMain {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projectDiv {
+    border-radius: 17px;
+    border: 1px solid #4F2F68;
+    color: white;
+    background: #120E14;
+    width: fit-content;
+    padding-top: 20px;
+    padding-left: 10px;
+    max-width: 25vw;
+    padding-bottom: 30px;
+    width: 25vw;
+    height: 7vw;
+    margin-left: 50px;
+
+}
+
+.projectTitle {
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #FFF;
+    display: inline;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 69.444% */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+#contactsMain {
+    color: #fff8fe;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    /* 69.444% */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+}
+
+.projectTags {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 12px;
+    /* 50% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+
+.projectPhase {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: #D49CFF;
+    display: inline;
+    text-align: right;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 50% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+
+.projectContent {
+    color: #e5e5e5;
+    display: inline;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 104.167% */
+    letter-spacing: -0.72px;
+
+}
+
+#projectsPage {
+    
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+
+    gap: 15px;
+}
+
+
+#contactsPage {
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    background: rgb(58,0,82);
+    background: linear-gradient(292deg, rgb(0, 0, 0) 1%, rgb(64, 0, 91) 100%);
+    display: flex;
+    flex-direction: column
+}
+
+
+.contacts {
+    color: white;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    display: inline;
+    
+    
+}
+
+.contactName {
+    font-weight: 500;
+}
+
+.contactForward {
+    font-weight: 300;
+}
+.contactsInfo {
+    text-align: center;
+}
+
+.inliner {
+    display: inline;
 }
